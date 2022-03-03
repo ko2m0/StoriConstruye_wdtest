@@ -18,7 +18,7 @@ function HeroSection({
                     <div className="home__hero-text-wrapper">
                         <div className="top-line">{topLine}</div>
                         <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
-                        <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>
+                        <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle darktxt'}>
                             {description}
                         </p>
                         <Link to='/'>

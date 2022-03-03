@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { MdFingerprint } from 'react-icons/md'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Button } from './pages/Button';
 import './Navbar.css';
-import { IconContext } from 'react-icons/lib'
+import { IconContext } from 'react-icons/lib';
+import StoriLogo from './StoriLogo';
 
 
 function Navbar() {
@@ -37,7 +37,7 @@ function Navbar() {
       <div className="navbar">
         <div className="navbar-container container">
             <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                <MdFingerprint className='navbar-icon' /> Logo
+                <img src={StoriLogo.logo} alt="Stori" width="130" />
             </Link>
             <div className="menu-icon" onClick={handleClick}>
                 {click ? <FaTimes /> : <FaBars />}               
@@ -45,31 +45,30 @@ function Navbar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
                     <Link to='/' className="nav-links" onClick={closeMobileMenu}>
-                        Home
+                        Nosotros
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/About' className="nav-links" onClick={closeMobileMenu}>
-                        About
+                        Productos
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/Products' className="nav-links" onClick={closeMobileMenu}>
-                        Products
+                        Pago de Servicios
                     </Link>
                 </li>
-                <l className="nav-btn">
-                    {button ? (
-                        <Link to='/' className="btn-link">
-                            <Button buttonStyle='btn--outline'>SIGNUP</Button>
-                        </Link>
-                    ) : (
-                        <Link to='/' className='btn-link' onClick={closeMobileMenu}>
-                            <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>Outline</Button>
-                        </Link>
-                    )
-                }
-                </l>
+                <li className='nav-item'>
+                    <Link to='/Products' className="nav-links" onClick={closeMobileMenu}>
+                        Preguntas Frecuentes
+                    </Link>
+                </li>
+                <li className='nav-item'>
+                    <Link to='/Products' className="nav-links" onClick={closeMobileMenu}>
+                        Comunicado de Prensa
+                    </Link>
+                </li>
+                
             </ul>
             </div>  
         </div>  

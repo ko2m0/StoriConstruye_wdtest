@@ -1,10 +1,10 @@
 .navbar {
-    background: #1c2237;
+    background: #00677f;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -57,7 +57,7 @@
   }
   
   .nav-item:hover {
-    border-bottom: 2px solid #f00946;
+    border-bottom: 2px solid #bdffa1;
   }
   
   .nav-links {
@@ -67,6 +67,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    font-size: 12px;
   }
   
   .fa-bars {
@@ -97,7 +98,7 @@
     }
   
     .nav-menu.active {
-      background: #1c2237;
+      background: #00677f;
       left: 0;
       opacity: 1;
       transition: all 0.6s ease;
@@ -112,7 +113,7 @@
     }
   
     .nav-links:hover {
-      color: #f00946;
+      color: #bdffa1;
       transform: scale(1.2);
       transition: all 0.3s ease;
     }

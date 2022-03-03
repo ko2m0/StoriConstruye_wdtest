@@ -12,24 +12,20 @@ function Pricing() {
       <IconContext.Provider value={{ color: '#fff', size: 64 }}>
         <div className='pricing__section'>
           <div className='pricing__wrapper'>
-            <h1 className='pricing__heading'>Pricing</h1>
+            <h1 className='pricing__heading k-padding-small trescolor-txt'>Aumenta tu línea de crédito en 3 meses!</h1>
             <div className='pricing__container'>
               <Link to='/sign-up' className='pricing__container-card'>
                 <div className='pricing__container-cardInfo'>
                   <div className='icon'>
                     <FaFire />
                   </div>
-                  <h3>Starter</h3>
-                  <h4>$8.99</h4>
-                  <p>per month</p>
+                  <h3>Aquí empiezas</h3>
+                  
+                  
                   <ul className='pricing__container-features'>
-                    <li>100 Transactions</li>
-                    <li>2% Cash Back</li>
-                    <li>$10,000 Limit</li>
+                    <li>
+                      <h3 className='txt-center'>Línea de crédito base</h3></li>
                   </ul>
-                  <Button buttonSize='btn--wide' buttonColor='primary'>
-                    Choose Plan
-                  </Button>
                 </div>
               </Link>
               <Link to='/sign-up' className='pricing__container-card'>
@@ -37,17 +33,13 @@ function Pricing() {
                   <div className='icon'>
                     <BsXDiamondFill />
                   </div>
-                  <h3>Gold</h3>
-                  <h4>$29.99</h4>
-                  <p>per month</p>
+                  <h3>Hasta</h3>
+                  <h4>$1,500</h4>
                   <ul className='pricing__container-features'>
-                    <li>1000 Transactions</li>
-                    <li>3.5% Cash Back</li>
-                    <li>$100,000 Limit</li>
+                    <li>
+                      <h3 className='txt-center'>Primer incremento en el tercer mes</h3>
+                    </li>
                   </ul>
-                  <Button buttonSize='btn--wide' buttonColor='blue'>
-                    Choose Plan
-                  </Button>
                 </div>
               </Link>
               <Link to='/sign-up' className='pricing__container-card'>
@@ -55,17 +47,15 @@ function Pricing() {
                   <div className='icon'>
                     <GiCrystalize />
                   </div>
-                  <h3>Diamond</h3>
-                  <h4>$99.99</h4>
-                  <p>per month</p>
+                  <h3>Hasta</h3>
+                  <h4>$3,000</h4>
                   <ul className='pricing__container-features'>
-                    <li>Unlimited Transactions</li>
-                    <li>5% Cash Back</li>
-                    <li>Unlimited Spending</li>
+                    <li>
+                      <h3 className='txt-center'>
+                      Segundo incremento en el sexto mes
+                      </h3>
+                      </li>
                   </ul>
-                  <Button buttonSize='btn--wide' buttonColor='primary'>
-                    Choose Plan
-                  </Button>
                 </div>
               </Link>
             </div>

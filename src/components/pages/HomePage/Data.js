@@ -2,11 +2,11 @@ export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Exclusive Access',
-    headline: 'Unlimited Transactions with zero fees',
+    topLine: 'Inicia o repara tu historial crediticio',
+    headline: 'Una tarjeta para ti!',
     description:
-      'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-    buttonLabel: 'Get Started',
+      'Aumenta tu línea de crédito en sólo 3 meses',
+    buttonLabel: 'Explícame cómo',
     imgStart: '',
     img: 'images/svg-1.svg',
     alt: 'Credit Card'
@@ -17,13 +17,13 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: '100% SECURE',
-    headline: 'Stay protected 24/7 anywhere anytime',
+    headline: 'Borrón y cuenta nueva',
     description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-    buttonLabel: 'Learn More',
-    imgStart: '',
-    img: 'images/svg-5.svg',
-    alt: 'Vault'
+      'Si tuviste un tropiezo con tu historial, Stori Construye es la opción para iniciar desde cero.',
+    buttonLabel: 'Inicia tu solicitud',
+    imgStart: 'start',
+    img: 'https://www.storicard.com/img/about/product/v1/construye-card2.png',
+    alt: 'Stori tarjeta'
   };
   
   export const homeObjThree = {
@@ -43,13 +43,13 @@ export const homeObjOne = {
   export const homeObjFour = {
     lightBg: true,
     lightText: false,
-    lightTextDesc: true,
+    lightTextDesc: false,
     topLine: 'DATA ANALYTICS',
     headline: 'Every transaction is stored on our secure cloud database',
     description:
       'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
     buttonLabel: 'Sign Up Now',
-    imgStart: 'start',
+    imgStart: '',
     img: 'images/svg-8.svg',
     alt: 'Vault'
   };

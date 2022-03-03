@@ -2,6 +2,8 @@
     --primary: #fff;
 }
 
+
+
 .btn{
     padding: 8px 20px;
     border-radius: 4px;
@@ -17,7 +19,7 @@
 
 .btn--primary{
     background-color: var(--primary);
-    color: #242424;
+    color: #384967;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
@@ -75,8 +77,8 @@
 
 
 .btn--wide:hover {
-    color: #fff;
-    background-color: #f00946;
+    color: #384967;
+    background-color: #dfffd1;
     transition: all 0.2s ease-out;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -86,8 +88,8 @@
 
 
 .blue {
-    background-color: #276afb;
-    color: #fff;
+    background-color: #bdffa1;
+    color: #384967;
     border: none;
 }
 

@@ -9,7 +9,7 @@ import {
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
+import StoriLogo from '../../StoriLogo';
 
 function Footer() {
   return (
@@ -36,44 +36,32 @@ function Footer() {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <h2>Empresa</h2>
+            <Link to='/sign-up'>Producto</Link>
+            <Link to='/'>Nosotros</Link>
+            <Link to='/'>Blog</Link>
           </div>
           <div className='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <h2>Cont&aacute;ctanos</h2>
+            <Link to='/'>Ayuda desde la App</Link>
+            <Link to='/'>Preguntas Frecuentes</Link>
+            <Link to='/'>Call center: 55 7822 6646</Link>
+          </div>
+          <div className='footer-link-items'>
+            <h2>Legales</h2>
+            <Link to='/'>Aviso de Privacidad</Link>
+            <Link to='/'>T&eacute;rminos y Condiciones</Link>
+            <Link to='/'>Derechos ARCO</Link>
+            <Link to='/'>UNE</Link>
           </div>
         </div>
-        <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div>
-          <div className='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div>
-        </div>
+        
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
-              LAVISH
+            <img src={StoriLogo.logo} alt="Stori" width="130" />
             </Link>
           </div>
           <small className='website-rights'>LAVISH © 2020</small>
