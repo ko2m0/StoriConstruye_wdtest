@@ -1,10 +1,12 @@
 import React from 'react'
+import StoriLogo from './StoriLogo'
+import './Requirements.css';
 
 function Requirements() {
 return (
 <div className="k-container clearfix k-padding-big quattorcolor-bg">
     <div className="[ zeb-1 zeb-m-12 ]">&nbsp;</div>
-    <div className="[ zeb-10 zeb-m-12 ]">
+    <div className="[ zeb-10 zeb-m-12 ] flexxer align-center wrapit">
         <div className="[ zeb-6 zeb-m-12 ]  k-padding-small">
             <div className="k-panel">
                 <h1 className='trescolor-txt k-padding-small'>Requisitos</h1>
@@ -21,7 +23,9 @@ return (
                 <div className="[ zeb-12 zeb-m-12 ]">
                     <div className="[ zeb-6 zeb-m-12 ]  k-padding-small">
                         <ul className='flexxer flexxer-column align-center just-center txt-center'>
-                            <li>1</li>
+                            <li className='k-padding-small req-img'>
+                                <img src={StoriLogo.req1} />
+                            </li>
                             <li>
                                 <h3 className='trescolor-txt'>Descargar la app en tu teléfono</h3>
                             </li>
@@ -29,7 +33,9 @@ return (
                     </div>
                     <div className="[ zeb-6 zeb-m-12 ]  k-padding-small">
                         <ul className='flexxer flexxer-column align-center just-center txt-center'>
-                            <li>1</li>
+                            <li className='k-padding-small req-img'>
+                                <img src={StoriLogo.req2} />
+                            </li>
                             <li>
                                 <h3 className='trescolor-txt'>Ser mayor de edad</h3>
                             </li>
@@ -39,7 +45,9 @@ return (
                 <div className="[ zeb-12 zeb-m-12 ]">
                     <div className="[ zeb-6 zeb-m-12 ]  k-padding-small">
                         <ul className='flexxer flexxer-column align-center just-center txt-center'>
-                            <li>1</li>
+                            <li className='k-padding-small req-img'>
+                                <img src={StoriLogo.req3} />
+                            </li>
                             <li>
                                 <h3 className='trescolor-txt'>Credencial de elector INE</h3>
                             </li>
@@ -47,7 +55,9 @@ return (
                     </div>
                     <div className="[ zeb-6 zeb-m-12 ]  k-padding-small">
                         <ul className='flexxer flexxer-column align-center just-center txt-center'>
-                            <li>1</li>
+                            <li className='k-padding-small req-img'>
+                                <img src={StoriLogo.req4} />
+                            </li>
                             <li>
                                 <h3 className='trescolor-txt'>Llenar todos tus datos</h3>
                             </li>
