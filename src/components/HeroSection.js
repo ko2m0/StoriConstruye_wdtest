@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CoverImgs from './CoverImgs';
 import './HeroSection.css';
 import { Button } from './pages/Button';
 
@@ -7,8 +8,11 @@ import { Button } from './pages/Button';
 
 function HeroSection({
     lightBg, topLine, lightText, lightTextDesc, headline, description,
-    buttonLabel, img, alt, imgStart 
+    buttonLabel, alt, imgStart,  
 }) {
+
+   
+
   return (
     <>
     <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
@@ -28,7 +32,7 @@ function HeroSection({
                 </div>
                 <div className="col">
                     <div className="home__hero-img-wrapper">
-                        <img src={img} alt={alt} className="home__hero-img" />
+                        <img src={CoverImgs[0].Img} alt={alt} className="home__hero-img" />
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 .home__hero-section {
     color: #fff;
     padding: 120px 0;
+    background-color: #fff;
   }
   
   .home__hero-row {
@@ -35,7 +36,7 @@
     color: #6986bd;
     font-size: 20px;
     line-height: 16px;
-    font-weight: 700;
+    font-weight: 300;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
@@ -45,7 +46,7 @@
     margin-bottom: 24px;
     font-size: 50px;
     line-height: 1.1;
-    font-weight: 600;
+    font-weight: 400;
     color: #f7f8fa;
   }
   

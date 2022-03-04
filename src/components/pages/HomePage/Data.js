@@ -8,7 +8,7 @@ export const homeObjOne = {
       'Aumenta tu línea de crédito en sólo 3 meses',
     buttonLabel: 'Explícame cómo',
     imgStart: '',
-    img: 'images/svg-1.svg',
+    img: 'D:\MaDoXx\0mSoK\VV3b\storiConstruye\react-stori-construye\src\assets\img\storicard-1.png',
     alt: 'Credit Card'
   };
   

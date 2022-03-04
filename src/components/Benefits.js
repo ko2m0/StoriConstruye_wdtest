@@ -1,5 +1,6 @@
 import React from 'react';
 import './Benefits.css';
+import StoriLogo from './StoriLogo';
 
 function Benefits() {
   return (
@@ -12,7 +13,9 @@ function Benefits() {
                     <div className="[ zeb-4 zeb-m-12 ]">
                         <div className="k-panel">
                             <ul className='flexxer flexxer-column align-center just-center'>
-                                <li>1</li>
+                                <li className='svg-space'>
+                                    <img src={StoriLogo.svg4} />
+                                </li>
                                 <li>
                                     <h1 className='trescolor-txt'>Inicia</h1>
                                 </li>
@@ -25,7 +28,9 @@ function Benefits() {
                     <div className="[ zeb-4 zeb-m-12 ]">
                     <div className="k-panel">
                             <ul className='flexxer flexxer-column align-center just-center'>
-                                <li>1</li>
+                                <li className='svg-space'>
+                                    <img src={StoriLogo.svg2}/>
+                                    </li>
                                 <li>
                                     <h1 className='trescolor-txt'>Crece</h1>
                                 </li>
@@ -38,7 +43,9 @@ function Benefits() {
                     <div className="[ zeb-4 zeb-m-12 ]">
                     <div className="k-panel">
                             <ul className='flexxer flexxer-column align-center just-center'>
-                                <li>1</li>
+                                <li className='svg-space'>
+                                    <img src={StoriLogo.svg3}/>
+                                </li>
                                 <li>
                                     <h1 className='trescolor-txt'>Aumenta</h1>
                                 </li>

@@ -1,3 +1,13 @@
 .benefits__bg {
     background-color: #f6f8fb;
 }
+
+.svg-space{
+    display: contents;
+    
+}
+
+.svg-space img{
+    max-height: 200px;
+    
+}
