@@ -3,12 +3,12 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Inicia o repara tu historial crediticio',
-    headline: 'Una tarjeta para ti!',
+    headline: 'En Stori sí te damos tu tarjeta',
     description:
-      'Aumenta tu línea de crédito en sólo 3 meses',
+      'Para crecer tu crédito rápidamente',
     buttonLabel: 'Explícame cómo',
-    imgStart: '',
-    img: 'D:\MaDoXx\0mSoK\VV3b\storiConstruye\react-stori-construye\src\assets\img\storicard-1.png',
+    imgStart: 'start',
+    img: '',
     alt: 'Credit Card'
   };
   
@@ -21,7 +21,7 @@ export const homeObjOne = {
     description:
       'Si tuviste un tropiezo con tu historial, Stori Construye es la opción para iniciar desde cero.',
     buttonLabel: 'Inicia tu solicitud',
-    imgStart: 'start',
+    imgStart: '',
     img: 'https://www.storicard.com/img/about/product/v1/construye-card2.png',
     alt: 'Stori tarjeta'
   };

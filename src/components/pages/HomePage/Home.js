@@ -18,12 +18,10 @@ function Home() {
     <Benefits />
     <HeroSection {...homeObjOne} />
     <Vdo />
-    
     <Pricing />
     <TitleText />
     <HeroSection {...homeObjTwo} />
     <Requirements />
-    <HeroSection {...homeObjFour} />
     <Clients />
     <Steps />
     <Footer />
